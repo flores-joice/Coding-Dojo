@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+.artigo {
+    display: inline-block;
+    width: 49%;
+    padding: 0 20px;
+    text-align: justify;
+
+}
+
+.artigo h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
