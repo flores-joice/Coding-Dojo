@@ -1,12 +1,11 @@
 body {
-    background-color: white;
+    background-color: rgb(228, 227, 227);
     margin: auto;
     font-family: sans-serif;
 }
 
 .header__titulo {
     color: rgb(197, 46, 197);
-    border-bottom: 1px solid rgb(197, 46, 197);
     text-transform: uppercase;
     font-size: 16px;
     text-align: center;
@@ -14,9 +13,10 @@ body {
 
 .topbar {
     position: fixed;
-    background-color: rgb(211, 191, 236);
+    background-color: rgba(135, 112, 163, 0.644);
+    top: 0;
     width: 100%;
-    padding: 15px 9%;
+    padding: 5px 9%;
 }
 
 .menu {
@@ -29,18 +29,23 @@ body {
     list-style: none;
     margin-right: 20px;
     display: inline;
- 
 }
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: rgb(102, 0, 128);
+    font-family: sans-serif;
 }
 
 .conteudo {
-    padding-top: 8%;
+    padding-top: 6%;
     text-align: center;
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 1px 4px rgb(117, 103, 121)
 }
+
 .autora {
     display: inline-block;
     width: 200px;
@@ -87,6 +92,6 @@ main {
 footer {
     background-color: rgb(197, 172, 228);
     color: white;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
 }
